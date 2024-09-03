@@ -24,7 +24,7 @@ console.log("User: ", userName, " Password: ", userPassword);
 
 app.get("/", (req, res) => {
   console.log(`Coffie is Running on port ${port}`);
-  res.send(`Cors cofig || Coffie is Running on port ${port}`);
+  res.send(`Update Environment Variables || Coffie is Running on port ${port}`);
 });
 
 app.get("/we", (req, res) => {
